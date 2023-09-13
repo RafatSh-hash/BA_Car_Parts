@@ -8,6 +8,20 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.appointment:{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.appointment::before{
+  background-color: transparent;
+}
+.appointment:hover::before{
+  
+
+}
+
 .appointment .arrow {
 
   transform: translateX(0%);
@@ -28,3 +42,45 @@ body{
 .appointment:hover .arrow1 {
   transform: translateX(-180%); 
 }
+
+#banner {
+  background-image: url('./assets/Images/banner1.jpg');
+  
+  background-size: cover;
+  background-position: center; 
+
+  width: 100%;
+  height: 60vh;
+  
+}
+
+.promise {
+  position: relative;
+  cursor: pointer;
+}
+
+.promise::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: red;
+  transition: width 0.3s ease;
+  animation: underlineAnimation 5s ease-in-out infinite; /* Added animation */
+}
+
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+
+

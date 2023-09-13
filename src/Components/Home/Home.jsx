@@ -1,9 +1,72 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import part01 from "../../assets/Images/01.png";
+import tick from "../../assets/icons/tick.png";
 
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center my-20 p-10">
+            <div>
+                <div className='p-5 transition-transform transform translate-y-0 hover:translate-y-0.1 animate-pulse'>
+                    <img src={part01} className='w-full h-full' alt="" />
+                </div>
+            </div>
+            <div className='p-1 md:p-5 lg:p-10 flex flex-col justify-center items-start text-left'>
+                <p className='text-lg text-red-500 my-3'>সর্বোত্তম সবাধান</p>
+                <h1 className='text-4xl text-[#0b2154] mb-5'>গাড়ি সংক্রান্ত সেবাদানে আমরা দক্ষ এবং মানসম্মত </h1>
+                <p className='text-black my-3 text-xl'>আমাদের প্রতিষ্ঠান নিন্মোক্ত সেবা সমূহ প্রদান করে থাকে ঃ </p>
+                <div className='grid grid-cols-2 gap-5  text-xl'>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5 '>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5'>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5'>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5'>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5'>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-5 h-5 rounded-full'>
+                            <img src={tick} className='w-full h-full' alt="" />
+                        </div>
+                        <p className='mx-5'>
+                            টায়ার এবং চাকা 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
