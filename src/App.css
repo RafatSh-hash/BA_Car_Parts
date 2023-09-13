@@ -3,3 +3,28 @@
   margin: 0 auto;
   padding: 0;
 }
+body{
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.appointment .arrow {
+
+  transform: translateX(0%);
+  /* transition: transform 500ms;  */
+}
+
+
+.appointment .arrow1 {
+
+  transform: translateX(100%);
+  transition: transform 500ms; 
+}
+
+.appointment:hover .arrow {
+  transform: translateX(150%); 
+}
+
+.appointment:hover .arrow1 {
+  transform: translateX(-180%); 
+}
