@@ -19,7 +19,7 @@ const Services = () => {
             <div data-aos="fade-left" className='p-1 md:p-5 lg:p-10 flex flex-col justify-center items-start text-left'>
                 <p className='text-lg text-red-500 my-3'>সর্বোত্তম সবাধান</p>
                 <h1 className='text-4xl text-[#0b2154] mb-5'>গাড়ি সংক্রান্ত সেবাদানে দক্ষ এবং মানসম্মত প্রতিষ্ঠান</h1>
-                <p className='text-black my-3 text-xl'>আমাদের প্রতিষ্ঠান নিন্মোক্ত সেবা সমূহ প্রদান করে থাকে ঃ </p>
+                <p className='text-black my-3 text-xl'>আমাদের প্রতিষ্ঠান নিন্মোক্ত সেবা সমূহ প্রদান করে থাকে : </p>
                 <div className='grid grid-cols-2 gap-5  text-xl'>
                     <div className='flex justify-center items-center'>
                         <div className='w-5 h-5 rounded-full'>

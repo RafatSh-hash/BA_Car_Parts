@@ -13,11 +13,11 @@ const Footer = () => {
            </div>
            <div className='p-5'>
                 <h1 className='text-3xl my-5'>
-                যোগাযোগ
+                ঠিকানা :
 
 
                 </h1>
-                <h2 className='font-semibold text-xl'>ফোন নম্বর ঃ </h2>
+                <h2 className='font-semibold text-xl'>দিয়াবাড়ি, উত্তরা, সেকশন - ১২, ঢাকা </h2>
                 <p> </p>
            </div>
         </div>

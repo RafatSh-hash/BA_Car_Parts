@@ -22,7 +22,9 @@ const Navigation = () => {
 
             <button className="border-2 border-red-500 py-2 px-2 bg-gradient-to-r from-transparent to-red-500 appointment hover:bg-red-500 transition-all duration-500">
   <div className="flex justify-between items-center">
-    <p className="text-xl px-2 text-white font-semibold">যোগাযোগ</p>
+    {/* jotform  */}
+    <a href=""><p className="text-xl px-2 text-white font-semibold">যোগাযোগ</p></a>
+    {/* jotform  */}
     <div className="flex w-5 overflow-hidden">
       <img src={rightArrow} className="w-4 h-4 me-2 transition-all duration-200 arrow" alt="" />
       <img src={rightArrow} className="w-4 h-4 ms-2 transition-all duration-200 arrow1" alt="" />
